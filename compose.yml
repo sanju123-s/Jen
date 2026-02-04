@@ -1,0 +1,8 @@
+services:
+  java-app:
+    build: ./java-app
+    container_name: java_container
+
+  python-app:
+    build: ./python-app
+    container_name: python_container
