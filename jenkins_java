@@ -13,7 +13,6 @@ pipeline {
         }
 
 
-
         stage('Compile') {
             steps {
                 echo 'Compiling Java program...'
