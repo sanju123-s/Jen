@@ -5,7 +5,6 @@ pipeline {
         stage('Checkout') {
             steps { git branch: 'main', url: 'https://github.com/sanju123-s/Jen' }
         }
-
         stage('Docker Build') {
             steps { sh 'docker build -t flask-app:1.0 .' }
         }
