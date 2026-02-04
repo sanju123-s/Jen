@@ -7,7 +7,6 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/sanju123-s/Jen'
             }
         }
-
         stage('Build') {
             steps {
                 echo 'building...'
